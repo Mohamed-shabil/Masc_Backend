@@ -1,7 +1,7 @@
 import Dashboard from "@/layouts/Dashboard";
 
 export default function Page() {
-  return <h1>List of courses</h1>;
+  return <h1>Hello world</h1>;
 }
 
 Page.getLayout = function getLayout(page) {

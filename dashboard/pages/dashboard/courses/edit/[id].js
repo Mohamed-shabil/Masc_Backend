@@ -1,7 +1,11 @@
 import Dashboard from "@/layouts/Dashboard";
+import { useRouter } from "next/router";
 
 export default function Page() {
-  return <h1>edit course</h1>;
+  const router = useRouter()
+  const { id } = router.query
+
+  return <p>edit {id}</p>;
 }
 
 Page.getLayout = function getLayout(page) {
