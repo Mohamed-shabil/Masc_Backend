@@ -6,9 +6,9 @@ import Dashboard from "@/layouts/Dashboard";
 
 export default function Page() {
   const onSubmit = (body) => {
-    axios.post(`${process.env.API_URL}/course`,{
+    axios.post(`http://localhost:5000/api/v1/course`,{
         ...body
-    })
+    });
   }
   
 

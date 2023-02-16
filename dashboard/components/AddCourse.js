@@ -116,7 +116,7 @@ export default function Page({onSubmit}) {
           }}
         />
 
-        <Button variant="contained" onClick={onSubmit()}>Submit</Button>
+        <Button variant="contained" onClick={onSubmit.bind(this,{name,type,duration,outcome,fees})}>Submit</Button>
       </Box>
     </Paper>
   );
