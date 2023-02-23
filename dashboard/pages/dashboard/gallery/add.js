@@ -1,7 +1,7 @@
 import Dashboard from "@/layouts/Dashboard";
-import AddMaterial from "@/components/AddMaterials"
+import AddGallery from "@/components/AddGallery";
 export default function Page() {
-  return <AddMaterial/>;
+  return <AddGallery/>;
 }
 
 Page.getLayout = function getLayout(page) {
